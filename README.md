@@ -1,9 +1,9 @@
-Multimodal Fusion for ECG Heartbeat Classification
-
+**Multimodal Fusion for ECG Heartbeat Classification
+**
 This project focuses on leveraging multimodal fusion techniques to classify ECG heartbeats into Normal and Myocardial Infarction categories using advanced pre-processing and deep learning methodologies.
 
-Overview
-
+**Overview
+**
 Electrocardiograms (ECG) are critical for diagnosing cardiac conditions. Using the PTB Diagnostic ECG Database, we transformed raw ECG signals into image representations using:
 
 Gramian Angular Field (GAF)
@@ -18,8 +18,8 @@ Multimodal Image Fusion (MIF): Combines image modalities into a single input.
 
 Multimodal Feature Fusion (MFF): Extracts features independently from modalities and fuses them using a Gated Fusion Network (GFN).
 
-Key Features
-
+**Key Features
+**
 Signal Preprocessing: Converts ECG signals into image representations.
 
 Deep Learning Models: Implements MIF and MFF frameworks for classification.
@@ -28,8 +28,8 @@ Gated Fusion Network (GFN): Optimizes feature integration dynamically.
 
 Performance: Achieves 98% accuracy with the MIF framework.
 
-Steps and Workflow
-
+**Steps and Workflow
+**
 1. Create GAF, RP, and MTF Images
 
 Transformed ECG signals into temporal, probabilistic, and recurrence-based image modalities.
@@ -66,8 +66,8 @@ Evaluated models on accuracy, precision, recall, and F1-score.
 
 Compared MIF and MFF frameworks to identify the optimal approach.
 
-Technologies and Tools Used
-
+**Technologies and Tools Used
+**
 Programming Languages: Python
 
 Libraries: NumPy, Pandas, Matplotlib, PyTS, TensorFlow, Keras
@@ -76,14 +76,14 @@ Pretrained Models: AlexNet
 
 Tools: Jupyter Notebook, Matplotlib, Scikit-learn
 
-Results
-
+**Results
+**
 Multimodal Image Fusion (MIF): 98% classification accuracy.
 
 Multimodal Feature Fusion (MFF): Enhanced interpretability and computational efficiency.
 
-Future Work
-
+**Future Work
+**
 Extend the dataset with more diverse cardiac conditions.
 
 Explore additional modalities for richer feature extraction.
